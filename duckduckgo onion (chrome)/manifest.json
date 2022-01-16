@@ -1,0 +1,30 @@
+{
+    "name": "DuckDuckGo Onion",
+    "applications": {
+        "gecko": {
+            "strict_min_version": "65.0"
+        }
+    },
+    "version": "2022.1.15",
+    "description": "Add DuckDuckGo's Onion site as default search to Firefox",
+    "icons": {
+        "16": "icon_16.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+    },
+
+    "manifest_version": 2,  
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "encoding": "UTF-8",
+            "favicon_url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/favicon.ico",
+            "is_default": true,
+            "keyword": "duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion",
+            "name": "DDGOnion",
+            "prepopulated_id": 97,
+            "search_url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/?q={searchTerms}&t=newext",
+            "suggest_url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ac/?q={searchTerms}&type=list"
+        }
+    }    
+    
+}
